@@ -25,13 +25,13 @@ from AyiinXd.modules import ALL_MODULES
 
 
 ON = '''
-❏ ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏ Mawing - Userbot Telah Aktif
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ ᴀʏɪɪɴ ᴠᴇʀsɪᴏɴ : {} •[{}]•
-├▹ ᴜsᴇʀʙᴏᴛ ɪᴅ : {}
-├▹ ᴜsᴇʀʙᴏᴛ ɴᴀᴍᴇ : {}
-├▹ ᴀssɪsᴛᴀɴᴛ ɪᴅ : {}
-├▹ ᴀssɪsᴛᴀɴᴛ ɴᴀᴍᴇ : {}
+├▹ Mawing Version : {} •[{}]•
+├▹ Userbot ID : {}
+├▹ Userbot Name : {}
+├▹ Assistant ID : {}
+├▹ Assistant Name : {}
 ╰╼┅━━━━━╍━━━━━┅╾
 '''
 
