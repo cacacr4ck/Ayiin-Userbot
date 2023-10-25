@@ -144,7 +144,7 @@ class Config(object):
     # untuk perintah teks costum .alive
     ALIVE_TEKS_CUSTOM = getenv(
         "ALIVE_TEKS_CUSTOM",
-        "Hey, Saya pengguna Ayiin-Userbot")
+        "Hey, Saya pengguna Mawing-Userbot")
 
     # Default .alive name
     ALIVE_NAME = getenv("ALIVE_NAME", "AyiinXd")
@@ -176,17 +176,17 @@ class Config(object):
 
     # Default .alive logo
     ALIVE_LOGO = (getenv("ALIVE_LOGO")
-                or "https://telegra.ph/file/940f21be8d8863b6c70ae.jpg")
+                or "https://telegra.ph/file/ddae11deb470f7228f891.jpg")
 
     INLINE_PIC = (getenv("INLINE_PIC")
-                or "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg")
+                or "https://telegra.ph/file/ddae11deb470f7228f891.jpg")
 
     # Picture For VCPLUGIN
     PLAY_PIC = (getenv("PLAY_PIC")
-                or "https://telegra.ph/file/6213d2673486beca02967.png")
+                or "https://telegra.ph/file/ddae11deb470f7228f891.jpg")
 
     QUEUE_PIC = (getenv("QUEUE_PIC")
-                or "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
+                or "https://telegra.ph/file/ddae11deb470f7228f891.jpg")
 
     DEFAULT = list(map(int, b64decode("MTkwNTA1MDkwMw==").split()))
 
