@@ -24,10 +24,10 @@ main_help_button = [
 ]
 logoyins = random.choice(
     [
-        "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg",
-        "https://telegra.ph/file/c935d34b48e45fba22b03.jpg",
-        "https://telegra.ph/file/392f69c8717c91b1e8a3b.jpg",
-        "https://telegra.ph/file/4c5b756dd13d7a88c866b.jpg",
+        "https://telegra.ph/file/ddae11deb470f7228f891.jpg,
+        "https://telegra.ph/file/ddae11deb470f7228f891.jpg",
+        "https://telegra.ph/file/ddae11deb470f7228f891.jpg",
+        "https://telegra.ph/file/ddae11deb470f7228f891.jpg",
     ]
 )
 
@@ -46,7 +46,7 @@ async def inline_handler(event):
         result = await event.builder.photo(
             file=logoyins,
             link_preview=False,
-            text=f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(CMD_HELP)} **Modules**",
+            text=f"**✨ Mawing-Ubot Inline Menu ✨**\n\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(CMD_HELP)} **Modules**",
             buttons=main_help_button,
         )
     elif query.startswith("repo"):
@@ -59,15 +59,15 @@ async def inline_handler(event):
                 0,
                 "image/jpeg",
                 []),
-            text="**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinChats\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+            text="**Mawing-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Mawing](https://t.me/ownedbyrain)\n✧ **sᴜᴘᴘᴏʀᴛ :** @storybangzul\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Mawing-Userbot](https://github.com/cacacr4ck/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
             buttons=[
                 [
                     custom.Button.url(
                         "ɢʀᴏᴜᴘ",
-                        "https://t.me/AyiinChats"),
+                        "https://t.me/+x5kZ-At0_n83OTNl"),
                     custom.Button.url(
                         "ʀᴇᴘᴏ",
-                        "https://github.com/AyiinXd/Ayiin-Userbot"),
+                        "https://github.com/cacacr4ck/Ayiin-Userbot"),
                 ],
             ],
             link_preview=False,
@@ -107,22 +107,22 @@ async def inline_handler(event):
     else:
         result = builder.article(
             title="✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✨",
-            description="Ayiin - Userbot | Telethon",
-            url="https://t.me/AyiinChannel",
+            description="Mawing - Userbot | Telethon",
+            url="https://t.me/storybangzul",
             thumb=InputWebDocument(
                 var.INLINE_PIC,
                 0,
                 "image/jpeg",
                 []),
-            text=f"**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {var.BOT_USERNAME}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @AyiinChannel\n➖➖➖➖➖➖➖➖➖➖",
+            text=f"**Mawing-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {var.BOT_USERNAME}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @storybangzul\n➖➖➖➖➖➖➖➖➖➖",
             buttons=[
                 [
                     custom.Button.url(
                         "ɢʀᴏᴜᴘ",
-                        "https://t.me/AyiinChats"),
+                        "https://t.me/+x5kZ-At0_n83OTNl"),
                     custom.Button.url(
                         "ʀᴇᴘᴏ",
-                        "https://github.com/AyiinXd/Ayiin-Userbot"),
+                        "https://github.com/cacacr4ck/Ayiin-Userbot"),
                 ],
             ],
             link_preview=False,
