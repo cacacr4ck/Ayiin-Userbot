@@ -53,6 +53,7 @@ GCAST_BLACKLIST = [
     -1001572486389,  # PluviaMusicGroup
     -1001608701614,  # UputtSupport
     -1001812143750,  # Kynan Support
+    -1001876092598,  # lumiere Support
 ]
 
 
